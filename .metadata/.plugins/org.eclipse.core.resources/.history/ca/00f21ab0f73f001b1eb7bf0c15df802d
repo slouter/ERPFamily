@@ -1,0 +1,5 @@
+package com.devMikasa.Familia.models.entity;
+
+public class Usuarios {
+
+}

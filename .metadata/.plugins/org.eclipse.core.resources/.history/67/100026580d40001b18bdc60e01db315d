@@ -1,0 +1,4 @@
+insert into usuarios (apellido,nombre,edad,dni,correo,create_at) values ('Mauriz Arizaga','','','','','');
+insert into usuarios (apellido,nombre,edad,dni,correo,create_at) values ('','','','','','');
+insert into usuarios (apellido,nombre,edad,dni,correo,create_at) values ('','','','','','');
+insert into usuarios (apellido,nombre,edad,dni,correo,create_at) values ('','','','','','');

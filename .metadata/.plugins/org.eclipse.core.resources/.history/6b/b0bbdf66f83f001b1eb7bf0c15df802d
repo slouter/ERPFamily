@@ -1,0 +1,35 @@
+package com.devMikasa.Familia.models.entity;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "usuario")
+public class Usuarios implements Serializable {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private String apellido;
+	private String nombre;
+	private int edad;
+	private String dni;
+	private String email;
+	
+	@Column(name = "create_at")
+	private Date createAt;
+	
+	
+	
+	
+	private static final long serialVersionUID = 1L;
+	
+}

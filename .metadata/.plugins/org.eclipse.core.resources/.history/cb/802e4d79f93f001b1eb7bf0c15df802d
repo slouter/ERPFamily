@@ -1,0 +1,11 @@
+package com.devMikasa.Familia.services;
+
+import java.util.List;
+
+import com.devMikasa.Familia.models.entity.Usuarios;
+
+public interface IUsuariosServices {
+	
+	public List<Usuarios> findAll();
+
+}
